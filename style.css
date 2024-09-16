@@ -34,11 +34,8 @@ body {
     color: darkgreen;
 }
 
-.my-text {
-    background: linear-gradient(blueviolet);
-    color: blue;
-}
 h2 {
     color: #10af8f;
     font-size: x-large;
+    text-align: center;
 }
