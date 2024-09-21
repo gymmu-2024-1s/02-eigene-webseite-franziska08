@@ -21,3 +21,12 @@
         </div>
     </body>
 </html>
+
+<svg height="300" width="300" version="1.1">
+    <path id="circle-motion" d="M 50 150 L 250 150 Z" stroke="black" />
+    <circle r="40" fill="pink">
+        <animateMotion dur="5s" repeatCount="indefinite">
+            <mpath xlink:href="#circle-motion" />
+        </animateMotion>
+    </circle>
+</svg>
