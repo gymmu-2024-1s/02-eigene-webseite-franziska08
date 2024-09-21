@@ -47,6 +47,9 @@ h2 {
 .img-size > img {
     width: 30%;
 }
+.img-size {
+    text-align: end;
+}
 
 .My-Hobby {
     color: red;
@@ -72,7 +75,9 @@ h2 {
     width: 30%;
     padding: 3rem;
 }
-
+.image {
+    text-align: right;
+}
 .fr-titel {
     background-color: forestgreen;
 }
@@ -85,9 +90,15 @@ h2 {
     padding: 1rem;
     font-size: x-large;
 }
-.grid {
-    margin: 0 auto;
-    width: 80%;
-    grid-template-columns: 50% auto;
-    gap: 2rem;
+.bg-reisen {
+    text-align: center;
+    color: indigo;
+}
+
+.tx-welt {
+    text-align: center;
+    border: 5px dotted black;
+    border: radius 4rem;
+    margin: 10px;
+    padding: 1rem;
 }
