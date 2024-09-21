@@ -45,12 +45,13 @@ h2 {
 }
 
 .img-size > img {
-    width: 50%;
+    width: 30%;
 }
 
 .My-Hobby {
     color: red;
     text-align: center;
+    font-size: xx-large;
 }
 
 .bg-title {
@@ -68,16 +69,19 @@ h2 {
 
 .image img {
     width: 30%;
+    padding: 3rem;
+    text-align: left;
 }
 
 .fr-titel {
     background-color: forestgreen;
 }
 
-.hobby-title {
+.bg-hobby {
     text-align: center;
-    border: 5px black;
+    border: 5px dotted red;
     border-radius: 2rem;
     margin: 10px;
     padding: 1rem;
+    font-size: x-large;
 }
