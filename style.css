@@ -111,18 +111,6 @@ h2 {
     grid-template-columns: 50% 50%;
     gap: 2rem;
 }
-.bg-reisen {
-    text-align: center;
-    color: indigo;
-}
-
-.tx-welt {
-    text-align: center;
-    border: 5px dotted black;
-    border-radius: 4rem;
-    margin: 10px;
-    padding: 1rem;
-}
 
 .lesen {
     color: rgb(177, 9, 9);
@@ -171,6 +159,64 @@ h2 {
     grid-template-columns: 50% 50%;
     gap: 1rem;
 }
-.world-img {
-    width: 50%;
+.world img {
+    width: 40%;
+    padding: 2rem;
+}
+.world {
+    text-align: center;
+}
+
+.tx-wohin {
+    text-align: justify;
+}
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+}
+
+.w-warum {
+    text-align: center;
+}
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+}
+
+.tx-world {
+    text-align: justify;
+    border: 5px dotted black;
+    border-radius: 4rem;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.tx-warum {
+    text-align: justify;
+    border: 5px dotted black;
+    border-radius: 4rem;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.bg-reisen {
+    text-align: center;
+    color: indigo;
+    background-color: pink;
+}
+.title-w {
+    background-color: pink;
+    color: indigo;
+    margin: 3rem;
+}
+.nations {
+    background-color: pink;
+    color: indigo;
+    margin: 3rem;
 }
