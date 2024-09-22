@@ -51,10 +51,17 @@ h2 {
     text-align: end;
 }
 
-.My-Hobby {
-    color: red;
+.hobby-title {
     text-align: center;
+    background-color: coral;
+    margin: 10px;
+    color: darkred;
     font-size: xx-large;
+}
+.My-Hobby {
+    color: rgb(177, 9, 9);
+    text-align: center;
+    font-size: x-large;
 }
 
 .bg-title {
@@ -78,13 +85,14 @@ h2 {
 .image {
     text-align: right;
 }
+
 .fr-titel {
     background-color: forestgreen;
 }
 
 .bg-hobby {
     text-align: center;
-    border: 5px dotted red;
+    border: 5px dotted rgb(177, 9, 9);
     border-radius: 2rem;
     margin: 10px;
     padding: 1rem;
@@ -99,6 +107,17 @@ h2 {
     text-align: center;
     border: 5px dotted black;
     border: radius 4rem;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.lesen {
+    color: rgb(177, 9, 9);
+    font-size: x-large;
+}
+.tx-lesen {
+    border: 5px dotted rgb(177, 9, 9);
+    border: radius 2rem;
     margin: 10px;
     padding: 1rem;
 }
