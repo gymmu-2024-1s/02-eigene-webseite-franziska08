@@ -126,7 +126,8 @@ h2 {
     color: blueviolet;
 }
 .lb-song {
-    border: 5px dotted blueviolet;
+    border: 5px double blueviolet;
+    background-color: plum;
     border-radius: 4rem;
     text-align: center;
     margin: 10px;
@@ -134,6 +135,16 @@ h2 {
 }
 .K-pop {
     text-align: center;
+    background-color: plum;
+    border: 5px double blueviolet;
+    border-radius: 2rem;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.k-text {
+    text-align: center;
+    background-color: plum;
     border: 5px double blueviolet;
     border-radius: 2rem;
     margin: 10px;
