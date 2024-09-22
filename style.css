@@ -40,6 +40,12 @@ h2 {
     text-align: center;
 }
 
+.start img {
+    width: 50%;
+}
+.start {
+    text-align: center;
+}
 .my-title {
     color: darkviolet;
 }
