@@ -45,10 +45,10 @@ h2 {
 }
 
 .img-size > img {
-    width: 30%;
+    width: 50%;
 }
 .img-size {
-    text-align: end;
+    text-align: center;
 }
 
 .hobby-title {
@@ -75,15 +75,15 @@ h2 {
     border-radius: 2rem;
     margin: 10px;
     padding: 1rem;
-    font-size: x-large;
+    font-size: large;
 }
 
 .image img {
-    width: 30%;
+    width: 70%;
     padding: 3rem;
 }
 .image {
-    text-align: right;
+    text-align: center;
 }
 
 .fr-titel {
@@ -91,12 +91,19 @@ h2 {
 }
 
 .bg-hobby {
-    text-align: center;
+    text-align: justify;
     border: 5px dotted rgb(177, 9, 9);
     border-radius: 2rem;
     margin: 10px;
     padding: 1rem;
     font-size: large;
+}
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
 }
 .bg-reisen {
     text-align: center;
@@ -116,6 +123,7 @@ h2 {
     font-size: x-large;
 }
 .tx-lesen {
+    text-align: justify;
     border: 5px dotted rgb(177, 9, 9);
     border-radius: 2rem;
     margin: 10px;
@@ -143,10 +151,17 @@ h2 {
 }
 
 .k-text {
-    text-align: center;
+    text-align: justify;
     background-color: plum;
     border: 5px double blueviolet;
     border-radius: 2rem;
     margin: 10px;
     padding: 1rem;
+}
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
 }
