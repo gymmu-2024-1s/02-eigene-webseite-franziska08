@@ -85,18 +85,18 @@ h2 {
 }
 
 .image img {
-    width: 40%;
+    width: 30%;
     padding: 3rem;
 }
 .image {
-    text-align: left;
+    text-align: center;
 }
 .buch img {
-    width: 40%;
+    width: 20%;
     padding: 3rem;
 }
 .buch {
-    text-align: right;
+    text-align: center;
 }
 
 .fr-titel {
